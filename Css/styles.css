@@ -171,28 +171,27 @@ h3{
     position: relative;
 }
 .scale .centi{
-    background-color: #1F1D36;
+    background-color:  #b18ea9;
     display: inline-block;
     padding: 3%;
     width: 80px;
-    border: 2px solid #b18ea9;
     border-radius: 15px 0 0 15px;
     cursor: pointer;
     text-align: center;
 }
 .scale .feet{
-    background-color: #1F1D36;
+    background-color:  #b18ea9;
     display: inline-block;
     padding: 3%;
     width: 80px;
-    border: 2px solid #b18ea9;
     border-radius: 0 15px 15px 0;
     cursor: pointer;
     
 }
 
 .scale .select{
-    background-color: #b18ea9;
+    background-color: #1F1D36;
+     border: 2px solid #b18ea9;
 }
 
 
