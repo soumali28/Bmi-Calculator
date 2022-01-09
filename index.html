@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>Bmi Calculator</title>
+</head>
+<body>
+    <div class="bmi-calc">
+        <h1>BMI Calculator</h1>
+        <div class="gender">
+            <div class="row">
+                <div class="col col-lg-6">
+                    <div class="border-wrap">
+                        <button class="gender-pic" value="male">
+                        
+                            <img src="images/male_img-removebg-preview.png" alt="" class="male">
+                             <br>
+                         </button>
+                    </div>
+                    <span>Male</span>
+                </div>
+
+                <div class="col col-lg-6">
+                    <div class="border-wrap">
+                        <button class="gender-pic" value="female" >
+                            
+                            <img src="images/female_img-removebg-preview.png" alt="" class="male">
+                             <br>
+                        </button>
+                    </div>
+                    <span>Female</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="age">
+            <span id="rangeValue">2</span> <br>
+            <input type="range" name="" class="age-range" min="2" max="80" value="2" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" ontouchmove="rangeSlide(this.value)">
+            <br>
+            <span style="font-size: 1.5rem;">Age</span>
+        </div>
+
+        <div class="weight">
+               <input type="range" name="" class="weight-range" min="3" max="180" value="3"onChange="Slide(this.value)" onmousemove="Slide(this.value)"  ontouchmove="Slide(this.value)"> 
+               <br>
+               <span id="weightRange">3kg</span> 
+            
+        </div>
+
+       <a  class="button" href="height.html"> Next</a>    
+           
+               
+             
+        
+    </div>
+   
+
+    <footer style="text-align: center; color: #fff;">
+        <span>Made with ❤ by <a href="https://soumali28.github.io/Personal-Site/">Soumali</a></span>
+    </footer>
+
+    <script src="Js/index.js"></script>
+</body>
+</html>
